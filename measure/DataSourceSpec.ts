@@ -2,7 +2,8 @@ export enum DataSourceCategory{
   Step="step",
   Sleep="sleep",
   Weight="weight",
-  HeartRate="heartRate"
+  HeartRate="heartRate",
+  BloodGlucose="bloodGlucose",
 }
 
 export enum DataSourceType{
@@ -11,6 +12,7 @@ export enum DataSourceType{
   SleepRange="sleep_range",
   HeartRate="heart_rate",
   Weight="weight",
+  BloodGlucose= "blood_glucose"
 }
 
 export interface DataSourceSpec{
